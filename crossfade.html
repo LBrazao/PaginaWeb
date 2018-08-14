@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Documento sin t&iacute;tulo</title>
+<style type="text/css">
+.fadein img {
+    position:absolute;
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 10s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+#f2 {
+    -webkit-animation-delay: -8s;
+}
+#f3 {
+    -webkit-animation-delay: -6s;
+}
+#f4 {
+    -webkit-animation-delay: -4s;
+}
+#f5 {
+    -webkit-animation-delay: -2s;
+}
+</style>
+</head>
+
+<body>
+<div class="fadein">
+    <img id="f5" src="prueba2.jpg">
+    <img id="f4" src="prueba1.jpg">
+    <img id="f3" src="http://i.imgur.com/R7A9JXc.png">
+	<img id="f2" src="http://i.imgur.com/D5yaJeW.png">
+    <img id="f1" src="http://i.imgur.com/EUqZ1Er.png">
+</div>
+</body>
+</html>

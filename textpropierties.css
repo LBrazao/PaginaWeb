@@ -1,0 +1,280 @@
+.tablacalendario tr td{
+	padding:5px;
+}
+.tablacalendario tr:hover{
+	background-color:#666666;
+	color:#FF0000;
+}
+.tablacalendario tr:nth-child(odd){
+	background-color:#CDCDCD;
+}
+.tablacalendario tr:nth-child(even){
+	background-color:#E1E1E1;
+}
+#fecha_activa:hover{
+	background-color:#333333;
+	color:#FF0000;
+	cursor:pointer;
+	-webkit-transition: background-color 0.3s ease, color 0.3s ease;  
+    -moz-transition: background-color 0.3s ease, color 0.3s ease;  
+    -o-transition: background-color 0.3s ease, color 0.3s ease;  
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.tablacalendar tr:nth-child(odd){
+	background-color:#CDCDCD;
+}
+.tablacalendar tr:nth-child(even){
+	background-color:#E1E1E1;
+}
+.tablafechas tr:nth-child(odd){
+	background-color:#CDCDCD;
+}
+.titlecategoria{
+font-family:Arial, Helvetica, sans-serif;
+font-size:45px;
+color:#FFFFFF;
+text-shadow:4px 4px rgba(0, 0, 0, 0.4);
+}
+.titlecategoria_new{
+font-family:Oswald;
+font-size:55px;
+color:#FFFFFF;
+text-shadow:4px 4px rgba(0, 0, 0, 0.4);
+}
+.subtitle{
+font-family:Arial, Helvetica, sans-serif;
+font-size:25px;
+color:#FFFFFF;
+text-shadow:4px 4px rgba(0, 0, 0, 0.4);
+}
+.subtitle_new{
+font-family:Oswald;
+font-size:25px;
+font-weight:lighter;
+color:#FFFFFF;
+text-shadow:4px 4px rgba(0, 0, 0, 0.4);
+}
+.textomenu{
+color:#FFFFFF;
+}
+.textomenu:hover{
+text-decoration:underline;
+}
+.tablafechas tr:nth-child(even){
+	background-color:#E1E1E1;
+}
+.tablacalendario {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#333333;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.cabezaenvivo{
+background-image:url(cabeza%20carrera%20en%20vivo.png);
+max-width:775px;
+min-height:43px;
+}
+.cabezaultima{
+background-image:url(cabeza%20ultima%20competencia.png);
+max-width:571px;
+min-height:43px;
+}
+.titulofotos{
+font-family:Oswald;
+font-size:29px;
+padding:4px;
+color:#FFFFFF;
+	-webkit-transition: color 0.3s ease;  
+-moz-transition: color 0.3s ease;  
+-o-transition: color 0.3s ease;  
+transition: color 0.3s ease;
+}
+.subtitulofotos{
+font-family:Oswald;
+font-size:19px;
+font-weight:lighter;
+padding:4px;
+color:#FFFFFF;
+	-webkit-transition: color 0.3s ease;  
+-moz-transition: color 0.3s ease;  
+-o-transition: color 0.3s ease;  
+transition: color 0.3s ease;
+}
+.titulofotos:a{
+text-decoration:underline;
+}
+.subtitulofotos:a{
+text-decoration:underline;
+}
+
+.cabezatiempos{
+background-image:url(cabeza%20tiempos.png);
+max-width:671px;
+min-height:43px;
+}
+.cabezanoticias{
+background-image:url(cabeza%20noticias.png);
+max-width:508px;
+min-height:43px;
+text-decoration-type:none;
+}
+.cabezacampeonato{
+background-image:url(cabeza%20campeonato.jpg);
+max-width:265px;
+min-height:43px;
+text-decoration-type:none;
+}
+.otrascategorias{
+background-image:url(cabeza%20campeonato.jpg);
+max-width:314px;
+min-height:43px;
+text-decoration-type:none;
+}
+.cabezaotrascategorias{
+background-image:url(cabeza%20campeonato.jpg);
+max-width:320px;
+min-height:43px;
+text-decoration-type:none;
+}
+.cabezacalendario{
+background-image:url(cabeza%20calendario.png);
+max-width:215px;
+min-height:43px;
+text-decoration-type:none;
+}
+.cabezafechas{
+background-image:url(cabeza%20fechas.jpg);
+max-width:265px;
+min-height:43px;
+text-decoration-type:none;
+}
+.cabezacronicas{
+background-image:url(cabeza%20cronicas.png);
+max-width:314px;
+min-height:43px;
+text-decoration-type:none;
+}
+.cabezanews{
+background-image:url(cabeza%20news.png);
+max-width:409px;
+min-height:43px;
+text-decoration-type:none;
+}
+.cabezarelatos{
+background-image:url(cabeza%20relatos.png);
+width:314px;
+min-height:43px;
+text-decoration-type:none;
+}
+.cabezavideos{
+background-image:url(cabeza%20carrera%20en%20vivo.png);
+max-width:775px;
+min-height:43px;
+text-decoration-type:none;
+}
+.masvideos{
+background-image:url(boton mas videos.jpg);
+max-width:151px;
+max-height:30px;
+}
+.textomasvideos{
+font-family:Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+font-weight:bold;
+font-size:12px;
+padding:7px 10px;
+display:block;
+}
+.textomasnoticias{
+font-family:Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+font-weight:bold;
+font-size:12px;
+padding:7px 10px;
+display:block;
+}
+.textomasfotos{
+font-family:Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+font-weight:bold;
+font-size:12px;
+padding:7px 10px;
+display:block;
+}
+.live_timing{
+position:relative;
+margin-bottom:-45px
+}
+.news_title{
+position:relative;
+margin-top:-44px
+}
+.news_title_text{
+font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#FFFFFF; font-weight:bold;
+}
+.news_title_text:hover{
+font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#FFFFFF; font-weight:bold;
+text-decoration:underline;
+}
+.buttons_table{
+position:relative; margin-top:-88px;
+}
+.buttons_propierties{
+font-family:Arial, Helvetica, sans-serif; font-size:19px; color:#FF0000;
+}
+.buttons_align{
+margin-left:15px; position:relative; margin-top:-32px
+}
+.frame_propierties{
+height:197px; overflow:hidden
+}
+.main_play{
+position:relative; margin-top:-197px
+}
+.secondplay{
+position:relative; margin-top:-95px
+}
+.titulonoticia{
+font-size:21px; color:#FF0000
+}
+.titulonoticia:hover{
+font-size:21px; color:#FF0000;
+text-decoration:underline;
+}
+.noticia_secundaria {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color:#FF0000;
+}
+.noticia_secundaria:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color:#FF0000;
+	text-decoration:underline;
+}
+.text_main_video{
+font-family:'Arial Narrow'; font-size:24px; color:#FF0000
+}
+.text_main_video:hover{
+font-family:'Arial Narrow'; font-size:24px; color:#FF0000;
+text-decoration:underline;
+}
+.text_video{
+font-family:Arial, Helvetica, sans-serif; color:#383838; font-size:13px; font-weight:bold;
+}
+.text_video:hover{
+font-family:Arial, Helvetica, sans-serif; color:#383838; font-size:13px; font-weight:bold;
+text-decoration:underline;
+}

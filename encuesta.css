@@ -1,0 +1,47 @@
+.tusencuestas_encuesta
+{
+font-family:Oswald;
+padding:4px;
+}
+
+.tusencuestas_pregunta
+{
+text-transform:uppercase;
+color:#FF0000;
+font-weight:bold;
+border-bottom:1px #CCCCCC solid;
+font-size:23px;
+margin-bottom:30px
+}   
+.tusencuestas_respuestas, .tusencuestas_respuestas table tbody tr td
+{
+color:#666666;
+font-size:18px;
+} 
+.tusencuestas_inferior
+{
+margin-top:20px;
+color:#666666;
+}
+
+.tusencuestas_myBar{
+background-color:#FF0000}
+input.tusencuestas_inferior
+{
+font-family:Oswald;
+font-size:20px;
+font-weight:bold;
+width:100%;
+height:42px;
+color:#F4E200;
+border: 2px solid #F4E200;
+text-transform:uppercase;
+background-color:#000000;
+cursor:pointer;
+}
+
+input.tusencuestas_inferior:hover
+{
+background:#F4E200;
+color:#000000
+}

@@ -1,0 +1,201 @@
+.cabezanoticias > a:hover{
+background-image:url(cabeza%20noticias%20activo.png);
+}
+.cabezanews > a:hover{
+background-image:url(cabeza%20news%20activo.png);
+}
+.cabezafechas > a:hover{
+background-image:url(cabeza%20fechas%20activo.jpg);
+}
+.cabezacampeonato > a:hover{
+background-image:url(cabeza%20campeonato%20activo.jpg);
+}
+.cabezavideos > a:hover{
+background-image:url(cabeza%20videos%20activo.jpg);
+}
+.noticias_inicio{
+	padding:7px;
+	overflow: auto;
+	height: 633px;
+}
+.noticias_inicio_cambiado{
+	padding:7px;
+	overflow: auto;
+	height: 269px;
+}
+body {
+	background-color: #000000;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.nota_fecha{
+height:430px;
+overflow:hidden;
+}
+.news{
+	padding:7px;
+	overflow: auto;
+	height: 281px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+.news-tc{
+	padding:7px;
+	overflow: auto;
+	height: 463px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+.news_wrc{
+	padding:7px;
+	overflow: auto;
+	height: 375px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+.newsfecha{
+	padding:7px;
+	overflow: auto;
+	height: 200px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+.relatos{
+	padding:7px;
+	overflow: auto;
+	height: 319px;
+}
+.botonresultados{
+font-family:Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight:bold;
+color:#FF0000;
+}
+.botonresultados_activo{
+font-family:Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight:bold;
+color:#FFFFFF;
+font-style:italic;
+}
+.botonresultados_inactivo{
+font-family:Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight:bold;
+}
+.botonresultados_horarios{
+font-family:Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight:bold;
+color:#FFFFFF;
+}
+.botonresultados_horarios:hover{
+text-decoration:underline;
+}
+.botonresultados:hover{
+text-decoration:underline;
+}
+.textoenvivo{
+font-family:Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+font-size:18px;
+padding:10px 15px;
+display:block;
+}
+.textoenvivovinculos{
+font-family:Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+font-size:18px;
+padding:10px 15px;
+display:block;
+}
+.textoenvivovinculos:hover{
+color:#FF0000;
+}
+.textoenvivovideos{
+font-family:Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+font-size:18px;
+padding:10px 15px;
+display:block;
+}
+.textoenvivovideos:hover{
+color:#FF0000;
+}
+.carreraenvivo{
+padding:8px;
+}
+.menucategorias{
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#FFFFFF;
+font-weight:bold;
+}
+.fechaenvivo{
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+font-size:17px;
+padding:4px;
+color:#FFFFFF;
+margin-left:470px;
+position:absolute;
+z-index:21;
+margin-top:10px;
+}
+.categoriaenvivo{
+margin-left:10px;
+margin-top:190px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+font-weight:bold;
+font-size:23px;
+padding:3px;
+position:absolute;
+z-index:22;
+}
+.imagenenvivo{
+list-style-type:none;
+margin-left:-38px;
+margin-right:0px;
+margin-bottom:0px;
+margin-top:0px;
+}
+.menuenvivo{
+margin-top:0px;
+margin-left:-32px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+list-style:none;
+}
+
+.menuenvivo li a{
+color:#333333;
+float:left;
+background-image:url(menuenvivo.jpg);
+width:100.4px;
+text-align:center;
+padding:8px 5px;
+border-left:#000000, 1px;
+border-bottom:1px solid #999999;
+border-left:1px solid #999999;
+}
+.menuenvivo li a:hover{
+color:#FF0000;
+}
+.popup{
+margin-left:-32px;
+margin-top:-7px;
+list-style:none;
+}
+.tv-coments{
+cursor:pointer
+}
+.cronica_fecha{
+font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#000000;
+}
+.cronica_fecha:hover{
+font-family:Arial, Helvetica, sans-serif; font-size:18px; text-decoration:underline; color:#FF0000;
+}

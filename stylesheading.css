@@ -1,0 +1,120 @@
+.playvideo{
+	position:relative;
+	margin-top:-109px;
+	text-align:center;
+}
+.playfoto{
+	position:relative;
+	margin-top:-137px;
+	text-align:center;
+	height:137px;
+}
+.playfoto_new{
+	position:relative;
+	text-align:center;
+	background-color:#000000;
+	height:145px;
+	opacity:0;
+	z-index:77;
+}
+#contenido_galeria{
+position:relative;
+margin-top:-145px;
+height:145px;
+text-align:right;
+}
+.texto_ir{
+opacity:0;
+padding:10px;
+color:#FFFFFF;
+margin-left:129px;
+position:absolute;
+font-family:Asenine;
+font-size:43px;
+font-weight:bolder;
+z-index:80;
+}
+.texto_ir:hover{
+	color:#FF0000;
+    -webkit-transition: color 0.4s ease;  
+    -moz-transition: color 0.4s ease;  
+    -o-transition: color 0.4s ease;  
+    transition: color 0.4s ease; 
+}
+.icono_galeria{
+position:absolute;
+z-index:75;
+}
+#contenido_galeria:hover > .playfoto_new{
+	opacity:0.5;
+    -webkit-transition: opacity 0.4s ease;  
+    -moz-transition: opacity 0.4s ease;  
+    -o-transition: opacity 0.4s ease;  
+    transition: opacity 0.4s ease;  
+}#contenido_galeria:hover > .texto_ir{
+	opacity:1;
+	margin-top:-60px;
+    -webkit-transition: opacity 0.4s ease, margin-top 0.4s ease;  
+    -moz-transition: opacity 0.4s ease, margin-top 0.4s ease;  
+    -o-transition: opacity 0.4s ease, margin-top 0.4s ease;  
+    transition: opacity 0.4s ease, margin-top 0.4s ease;  
+}
+.titulovideo{
+	padding:10px 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	color:#FF0000;
+}
+.textovideo{
+	padding:2px 3px;
+	height:53px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	text-align:left;
+}
+.cabezanoticias1 {background-image:url(cabeza%20noticias.png);
+max-width:508px;
+min-height:43px;
+text-decoration-type:none;
+}
+.tituloargentinos {
+font-family:"Arial Narrow";
+font-size:23px;
+color:#FFFFFF;
+position:absolute;
+margin-top:-330px;
+margin-left:10px;
+z-index:40;
+}
+.botonargentinos{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#FFFFFF;
+font-weight:bold;
+position:absolute;
+margin-top:-48px;
+margin-left:140px;
+z-index:50;
+}
+.epigrafe{font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#FFFFFF;}
+-->
+.disenos_tc{
+font-family:"Arial Narrow";
+font-size:30px;
+color:#FFFFFF;
+position:relative;
+margin-top: -290px;
+}
+.disenos_miralos{
+font-family:Arial, Helvetica, sans-serif;
+font-size:20px;
+color:#FFFFFF;
+position:relative;
+margin-left:5px;
+margin-top:20px;
+}
+.play_noticia_fecha{
+	position:relative;
+	margin-top:-64px;
+	text-align:center;
+}

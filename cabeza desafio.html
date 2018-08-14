@@ -1,0 +1,119 @@
+<head>
+<link href="pluginsperformance.css" type="text/css" rel="stylesheet" media="screen, projection" />
+<style type="text/css">
+.tappa{
+font-family:Arial, Helvetica, sans-serif;
+font-size: 19px;
+font-weight:bold;
+color:#FFFFFF;
+margin-top:0px;
+margin-left:-40px;
+}
+.etape {
+	width:400px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding:0px;
+    margin:0px;
+	}
+	
+	.ocultado {
+	height:0px;
+	overflow:hidden;
+	position:absolute;
+	-webkit-transition: height 0.4s ease;  
+    -moz-transition: height 0.4s ease;  
+    -o-transition: height 0.4s ease;  
+    transition: height 0.4s ease;
+	}
+	.aparecido {
+	height:200px;
+	overflow:hidden;
+	position:absolute;
+    -webkit-transition: height 0.4s ease;  
+    -moz-transition: height 0.4s ease;  
+    -o-transition: height 0.4s ease;  
+    transition: height 0.4s ease;  
+	}
+ul, li {
+list-style:none;
+}
+div ul li a {
+border-bottom: 1px solid #434343;
+background-color:#000000;
+opacity:0.9;
+color:#CCCCCC;
+text-decoration:none;
+padding:5px 10px;
+display:block;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+}
+.titletappa{
+font-family:Arial, Helvetica, sans-serif;
+font-size:20px;
+color:#FFFFFF;
+width:160px;
+padding:6px;
+background-color:#000000;
+cursor:pointer;
+}
+.tappa li a:hover{
+color:#333333;
+background-color:#CCCCCC;
+}
+#contenedor ul li{
+width:160px;
+}
+</style>
+</head><table width="990" height="121" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="219" rowspan="3"><img src="logo desafio ruta 40.png" width="210" height="113" /></td>
+    <td width="528" rowspan="3"><table width="527" height="107" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="389"><img src="desafio ruta 40.png" alt="a" width="341" height="45" /></td>
+        <td width="138" rowspan="2"><div align="center"><img src="logo tc la revista 3d.png" alt="c" width="165" height="82" /></div></td>
+      </tr>
+      <tr>
+        <td height="52"><img src="extremo.png" alt="b" height="100%" /></td>
+      </tr>
+    </table></td>
+    <td width="243" height="33" background="fondo redes sociales.png"><div align="center"><a href="http://www.facebook.com/tclarevista"><img src="icono facebook.png" width="30" height="30" border="0" /></a> <a href="http://www.twitter.com/tclarevista"><img src="icono twitter.png" width="30" height="30" border="0" /></a> <a href="http://www.youtube.com/tcrevista"><img src="icono youtube.png" width="30" height="30" border="0" /></a></div></td>
+  </tr>
+  <tr>
+    <td height="30"><div id="google_translate_element"></div>
+        <script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'es',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+      </script>
+	  <script>
+	  function chauocultado()
+{
+document.getElementById("contenedor").className="aparecido";
+}
+function chaupuesto()
+{
+document.getElementById("contenedor").className="ocultado";
+}
+	  </script>
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></td>
+  </tr>
+  <tr>
+    <td height="19"><div onmouseover="chauocultado()" onmouseout="chaupuesto()" class="titletappa">ETAPAS <img src="flechamenu.png" width="15" height="15" border="0" /></div>
+	<div  onmouseover="chauocultado()" onmouseout="chaupuesto()" id="contenedor" class="ocultado">
+	<ul class="tappa">
+	<li><a href="desafio-previa.php">PREVIA</a></li>
+	<li><a href="desafio-etapa1.php">ETAPA 1</a></li>
+	<li><a href="desafio-etapa2.php">ETAPA 2</a></li>
+	<li><a href="desafio-etapa3.php">ETAPA 3</a></li>
+	<li><a href="desafio-etapa4.php">ETAPA 4</a></li>
+	<li><a href="desafio-etapa5.php">ETAPA 5</a></li>
+	</ul>
+	</div></td>
+  </tr>
+</table>

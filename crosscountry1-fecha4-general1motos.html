@@ -1,0 +1,956 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Documento sin t&iacute;tulo</title>
+
+
+<meta http-equiv="refresh" content="60" />
+
+<style type="text/css">
+<!--
+table tr:nth-child(odd){
+	background-color:#E5E5E5;
+}
+table tr:nth-child(even){
+	background-color:#F8F8F8;
+}
+.scrolltable{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#333333;
+}
+thead{
+color:#FF0000;
+font-weight:bold;
+background-color:#E5E5E5;
+}
+.scrolltable table{
+border-collapse:collapse;
+width:100%;
+}
+.scrolltable table tr:nth-child(odd){
+	background-color:#E5E5E5;
+}
+.scrolltable table tr:nth-child(even){
+	background-color:#F8F8F8;
+}
+.driver{
+font-weight:bold;
+}
+.link{
+color:#FFFFFF;
+font-weight:bold;
+text-decoration:none;
+}
+.sintiempos{
+background-color:#FFFFFF;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;}
+-->
+
+</style><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+<!--
+.excel1 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+text-align:general;
+vertical-align:bottom;
+border:none;
+white-space:nowrap;
+}
+.excel6 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:red;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:bottom;
+border:none;
+white-space:normal;
+}
+.excel2 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:windowtext;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:top;
+border:none;
+white-space:normal;
+}
+.excel4 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:windowtext;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:general;
+vertical-align:top;
+border:none;
+white-space:normal;
+}
+-->
+</style>
+<style type="text/css">
+<!--
+.excel3 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+text-align:general;
+vertical-align:bottom;
+border:none;
+white-space:nowrap;
+}
+.excel10 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:red;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:bottom;
+border:none;
+white-space:normal;
+}
+.excel5 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:windowtext;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:top;
+border:none;
+white-space:normal;
+}
+.excel8 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:windowtext;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:general;
+vertical-align:top;
+border:none;
+white-space:normal;
+}
+-->
+</style>
+<style type="text/css">
+<!--
+.excel7 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+text-align:general;
+vertical-align:bottom;
+border:none;
+white-space:nowrap;
+}
+.excel9 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:red;
+font-size:9.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel11 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:red;
+font-size:9.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:left;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel13 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel12 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:left;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel16 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel17 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel18 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+-->
+</style>
+<style type="text/css">
+<!--
+.excel14 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+text-align:general;
+vertical-align:bottom;
+border:none;
+white-space:nowrap;
+}
+.excel24 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:red;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel25 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:red;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:general;
+vertical-align:bottom;
+border:none;
+white-space:nowrap;
+}
+.excel26 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:red;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:general;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel27 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:red;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel28 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:red;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:bottom;
+border:none;
+white-space:nowrap;
+}
+.excel23 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel22 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:general;
+vertical-align:bottom;
+border:none;
+white-space:nowrap;
+}
+.excel21 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:general;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel20 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:right;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+-->
+</style>
+</head>
+
+<body>
+
+
+
+
+<table style="font-family:Arial, Helvetica, sans-serif" width="433" height="32" border="0" cellpadding="0">
+  <tr>
+    <td width="182">ETAPA 1: </td>
+    <td width="124" background="boton general.jpg"><div align="center"><a class="link" href="crosscountry1-fecha4-etapa1motos.html">Especial</a> </div></td>
+    <td width="119" background="boton general activo.jpg"><div align="center"><em>General</em></div></td>
+  </tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="excel14">
+  <col width="34" style="width:26pt;" />
+  <col width="172" style="width:129pt;" />
+  <col width="119" style="width:89pt;" />
+  <col width="70" style="width:53pt;" />
+  <col width="72" style="width:54pt;" />
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel24" width="34" style="height:15.0pt;width:26pt;">Pos.</td>
+    <td class="excel25" width="172" style="width:129pt;">Piloto</td>
+    <td class="excel26" width="119" style="width:89pt;">Marca</td>
+    <td class="excel27" width="70" style="width:53pt;">Tiempo</td>
+    <td class="excel28" width="72" style="width:54pt;">Diferencia</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">1</td>
+    <td class="excel22">&nbsp;X.DE SOULTRAIT</td>
+    <td class="excel21" width="119" style="width:89pt;">YAMAHA 450</td>
+    <td class="excel20" width="70" style="width:53pt;">2:55'58.79&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;"></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">2</td>
+    <td class="excel22">&nbsp;J.PEDRERO</td>
+    <td class="excel21" width="119" style="width:89pt;">SHERCO 450</td>
+    <td class="excel20" width="70" style="width:53pt;">2:58'48.93&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">2'50.14&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">3</td>
+    <td class="excel22">&nbsp;A.MONLEON HERNANDEZ</td>
+    <td class="excel21" width="119" style="width:89pt;">HUSQVARNA 450</td>
+    <td class="excel20" width="70" style="width:53pt;">2:58'54.49&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">2'55.70&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">4</td>
+    <td class="excel25">&nbsp;K.BENAVIDES</td>
+    <td class="excel21" width="119" style="width:89pt;">HONDA 450</td>
+    <td class="excel20" width="70" style="width:53pt;">2:59'03.01&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">3'04.22&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">5</td>
+    <td class="excel22">&nbsp;H.RODRIGUES</td>
+    <td class="excel21" width="119" style="width:89pt;">YAMAHA 450</td>
+    <td class="excel20" width="70" style="width:53pt;">2:59'04.43&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">3'05.64&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">6</td>
+    <td class="excel22">&nbsp;A.VAN BEVEREN</td>
+    <td class="excel21" width="119" style="width:89pt;">YAMAHA 450</td>
+    <td class="excel20" width="70" style="width:53pt;">2:59'30.78&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">3'31.99&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">7</td>
+    <td class="excel22">&nbsp;O.PAIN</td>
+    <td class="excel21" width="119" style="width:89pt;">BETA 430</td>
+    <td class="excel20" width="70" style="width:53pt;">3:00'16.00&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">4'17.21&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">8</td>
+    <td class="excel22">&nbsp;A.BOTTURI</td>
+    <td class="excel21" width="119" style="width:89pt;">YAMAHA 450</td>
+    <td class="excel20" width="70" style="width:53pt;">3:00'37.17&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">4'38.38&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">9</td>
+    <td class="excel22">&nbsp;V.COMINOTTO</td>
+    <td class="excel21" width="119" style="width:89pt;">HUSQVARNA 500</td>
+    <td class="excel20" width="70" style="width:53pt;">3:04'34.37&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">8'35.58&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">10</td>
+    <td class="excel22">&nbsp;A.MANCINI</td>
+    <td class="excel21" width="119" style="width:89pt;">BETA 430</td>
+    <td class="excel20" width="70" style="width:53pt;">3:05'57.77&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">9'58.98&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">11</td>
+    <td class="excel22">&nbsp;L.VECCHI</td>
+    <td class="excel21" width="119" style="width:89pt;">KTM 250</td>
+    <td class="excel20" width="70" style="width:53pt;">3:07'36.81&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">11'38.02&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">12</td>
+    <td class="excel22">&nbsp;M.IOB</td>
+    <td class="excel21" width="119" style="width:89pt;">HONDA 500</td>
+    <td class="excel20" width="70" style="width:53pt;">3:10'35.46&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">14'36.67&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">13</td>
+    <td class="excel22">&nbsp;M.PAVAN</td>
+    <td class="excel21" width="119" style="width:89pt;">BETA 430</td>
+    <td class="excel20" width="70" style="width:53pt;">3:12'21.77&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">16'22.98&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">14</td>
+    <td class="excel22">&nbsp;G.GRITTI</td>
+    <td class="excel21" width="119" style="width:89pt;">HONDA 450</td>
+    <td class="excel20" width="70" style="width:53pt;">3:13'58.71&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">17'59.92&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">15</td>
+    <td class="excel22">&nbsp;G.SELLA</td>
+    <td class="excel21" width="119" style="width:89pt;">KTM 450</td>
+    <td class="excel20" width="70" style="width:53pt;">3:15'55.95&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">19'57.16&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">16</td>
+    <td class="excel22">&nbsp;S.SOUDAY</td>
+    <td class="excel21" width="119" style="width:89pt;">QUAD</td>
+    <td class="excel20" width="70" style="width:53pt;">3:16'26.90&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">20'28.11&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">17</td>
+    <td class="excel22">&nbsp;J.CORNEJO FLORIMO</td>
+    <td class="excel21" width="119" style="width:89pt;">KTM 450</td>
+    <td class="excel20" width="70" style="width:53pt;">3:16'57.88&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">20'59.09&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">18</td>
+    <td class="excel22">&nbsp;S.FRASSINI</td>
+    <td class="excel21" width="119" style="width:89pt;">KTM 250</td>
+    <td class="excel20" width="70" style="width:53pt;">3:17'28.47&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">21'29.68&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">19</td>
+    <td class="excel22">&nbsp;F.CIOTTI</td>
+    <td class="excel21" width="119" style="width:89pt;">SHERCO 460</td>
+    <td class="excel20" width="70" style="width:53pt;">3:18'13.75&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">22'14.96&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">20</td>
+    <td class="excel22">&nbsp;M.USLENGHI</td>
+    <td class="excel21" width="119" style="width:89pt;">HONDA 125</td>
+    <td class="excel20" width="70" style="width:53pt;">3:19'07.33&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">23'08.54&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">21</td>
+    <td class="excel22">&nbsp;I.CASALE CATRACCHIA</td>
+    <td class="excel21" width="119" style="width:89pt;">YAMAHA QUAD</td>
+    <td class="excel20" width="70" style="width:53pt;">3:19'24.79&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">23'26.00&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">22</td>
+    <td class="excel22">&nbsp;S.MANDRELLI</td>
+    <td class="excel21" width="119" style="width:89pt;">KTM 350</td>
+    <td class="excel20" width="70" style="width:53pt;">3:22'26.58&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">26'27.79&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">23</td>
+    <td class="excel22">&nbsp;C.CUCCHI</td>
+    <td class="excel21" width="119" style="width:89pt;">KTM 500</td>
+    <td class="excel20" width="70" style="width:53pt;">3:22'29.40&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">26'30.61&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">24</td>
+    <td class="excel22">&nbsp;R.SONIK</td>
+    <td class="excel21" width="119" style="width:89pt;">QUAD</td>
+    <td class="excel20" width="70" style="width:53pt;">3:22'38.20&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">26'39.41&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">25</td>
+    <td class="excel22">&nbsp;C.ESPANA MUNOZ</td>
+    <td class="excel21" width="119" style="width:89pt;">BETA 450</td>
+    <td class="excel20" width="70" style="width:53pt;">3:23'33.05&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">27'34.26&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">26</td>
+    <td class="excel22">&nbsp;N.GIUSTI</td>
+    <td class="excel21" width="119" style="width:89pt;">BETA 500</td>
+    <td class="excel20" width="70" style="width:53pt;">3:23'38.10&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">27'39.31&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">27</td>
+    <td class="excel22">&nbsp;R.ROSSINI</td>
+    <td class="excel21" width="119" style="width:89pt;">SHERCO 250</td>
+    <td class="excel20" width="70" style="width:53pt;">3:24'38.93&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">28'40.14&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">28</td>
+    <td class="excel22">&nbsp;S.AGAZZI</td>
+    <td class="excel21" width="119" style="width:89pt;">HONDA 250</td>
+    <td class="excel20" width="70" style="width:53pt;">3:24'51.71&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">28'52.92&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">29</td>
+    <td class="excel22">&nbsp;A.FADDA</td>
+    <td class="excel21" width="119" style="width:89pt;">SHERCO 300</td>
+    <td class="excel20" width="70" style="width:53pt;">3:25'23.07&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">29'24.28&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">30</td>
+    <td class="excel22">&nbsp;F.MAURI</td>
+    <td class="excel21" width="119" style="width:89pt;">YAMAHA 250</td>
+    <td class="excel20" width="70" style="width:53pt;">3:27'00.32&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">31'01.53&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">31</td>
+    <td class="excel22">&nbsp;F.VIGNOLA</td>
+    <td class="excel21" width="119" style="width:89pt;">HONDA 450</td>
+    <td class="excel20" width="70" style="width:53pt;">3:27'46.14&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">31'47.35&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">32</td>
+    <td class="excel22">&nbsp;R.BARBIERI</td>
+    <td class="excel21" width="119" style="width:89pt;">HONDA 500</td>
+    <td class="excel20" width="70" style="width:53pt;">3:28'08.07&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">32'09.28&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">33</td>
+    <td class="excel22">&nbsp;K.WISNIEWSKI</td>
+    <td class="excel21" width="119" style="width:89pt;">YAMAHA QUAD</td>
+    <td class="excel20" width="70" style="width:53pt;">3:28'29.71&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">32'30.92&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">34</td>
+    <td class="excel22">&nbsp;A.COLOMBO</td>
+    <td class="excel21" width="119" style="width:89pt;">SHERCO 450</td>
+    <td class="excel20" width="70" style="width:53pt;">3:29'37.03&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">33'38.24&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">35</td>
+    <td class="excel22">&nbsp;A.MARE</td>
+    <td class="excel21" width="119" style="width:89pt;">YAMAHA 450</td>
+    <td class="excel20" width="70" style="width:53pt;">3:30'14.90&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">34'16.11&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">36</td>
+    <td class="excel22">&nbsp;U.SALKIM</td>
+    <td class="excel21" width="119" style="width:89pt;">KTM 450</td>
+    <td class="excel20" width="70" style="width:53pt;">3:34'18.58&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">38'19.79&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">37</td>
+    <td class="excel22">&nbsp;U.FILOSA</td>
+    <td class="excel21" width="119" style="width:89pt;">HONDA 1000</td>
+    <td class="excel20" width="70" style="width:53pt;">3:34'31.63&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">38'32.84&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">38</td>
+    <td class="excel22">&nbsp;R.ROMERO FONT</td>
+    <td class="excel21" width="119" style="width:89pt;">KTM 250</td>
+    <td class="excel20" width="70" style="width:53pt;">3:36'12.85&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">40'14.06&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">39</td>
+    <td class="excel22">&nbsp;M.OLIVETTO</td>
+    <td class="excel21" width="119" style="width:89pt;">KTM 250</td>
+    <td class="excel20" width="70" style="width:53pt;">3:39'46.68&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">43'47.89&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">40</td>
+    <td class="excel22">&nbsp;A.CAVICCHI</td>
+    <td class="excel21" width="119" style="width:89pt;">HUSQVARNA 125</td>
+    <td class="excel20" width="70" style="width:53pt;">3:41'06.75&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">45'07.96&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">41</td>
+    <td class="excel22">&nbsp;R.LE LOUP</td>
+    <td class="excel21" width="119" style="width:89pt;">SHERCO 450</td>
+    <td class="excel20" width="70" style="width:53pt;">3:42'23.89&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">46'25.10&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">42</td>
+    <td class="excel22">&nbsp;J.ZATKO</td>
+    <td class="excel21" width="119" style="width:89pt;">KTM 450</td>
+    <td class="excel20" width="70" style="width:53pt;">3:43'05.77&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">47'06.98&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">43</td>
+    <td class="excel22">&nbsp;J.DEL CONTE</td>
+    <td class="excel21" width="119" style="width:89pt;">BETA 300</td>
+    <td class="excel20" width="70" style="width:53pt;">3:44'26.59&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">48'27.80&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">44</td>
+    <td class="excel22">&nbsp;A.BERTOLDI</td>
+    <td class="excel21" width="119" style="width:89pt;">HUSQWARNA 450</td>
+    <td class="excel20" width="70" style="width:53pt;">3:45'07.77&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">49'08.98&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">45</td>
+    <td class="excel22">&nbsp;G.ZECCA</td>
+    <td class="excel21" width="119" style="width:89pt;">KTM 450</td>
+    <td class="excel20" width="70" style="width:53pt;">3:51'15.01&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">55'16.22&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">46</td>
+    <td class="excel22">&nbsp;L.PEGORARO</td>
+    <td class="excel21" width="119" style="width:89pt;">BETA 500</td>
+    <td class="excel20" width="70" style="width:53pt;">3:51'51.51&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">55'52.72&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">47</td>
+    <td class="excel22">&nbsp;P.JOUIS</td>
+    <td class="excel21" width="119" style="width:89pt;">BETA 450</td>
+    <td class="excel20" width="70" style="width:53pt;">3:52'04.67&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">56'05.88&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">48</td>
+    <td class="excel22">&nbsp;A.DUTRIE</td>
+    <td class="excel21" width="119" style="width:89pt;">YAMAHA QUAD</td>
+    <td class="excel20" width="70" style="width:53pt;">3:53'20.00&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">57'21.21&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">49</td>
+    <td class="excel22">&nbsp;D.CARMIGNANI</td>
+    <td class="excel21" width="119" style="width:89pt;">HONDA 250</td>
+    <td class="excel20" width="70" style="width:53pt;">3:54'53.51&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">58'54.72&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">50</td>
+    <td class="excel22">&nbsp;E.MONTALBANO</td>
+    <td class="excel21" width="119" style="width:89pt;">HUSQVARNA 450</td>
+    <td class="excel20" width="70" style="width:53pt;">3:59'22.90&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">1:03'24.11&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">51</td>
+    <td class="excel22">&nbsp;D.BANDINELLI</td>
+    <td class="excel21" width="119" style="width:89pt;">BETA 480</td>
+    <td class="excel20" width="70" style="width:53pt;">4:03'14.96&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">1:07'16.17&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">52</td>
+    <td class="excel22">&nbsp;C.CUYPERS</td>
+    <td class="excel21" width="119" style="width:89pt;">KTM 450</td>
+    <td class="excel20" width="70" style="width:53pt;">4:05'54.84&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">1:09'56.05&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">53</td>
+    <td class="excel22">&nbsp;A.LECOMTE</td>
+    <td class="excel21" width="119" style="width:89pt;">YAMAHA QUAD</td>
+    <td class="excel20" width="70" style="width:53pt;">4:11'11.90&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">1:15'13.11&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">54</td>
+    <td class="excel22">&nbsp;T.KARATHANASSIS</td>
+    <td class="excel21" width="119" style="width:89pt;">BETA 450</td>
+    <td class="excel20" width="70" style="width:53pt;">4:15'35.91&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">1:19'37.12&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">55</td>
+    <td class="excel22">&nbsp;E.ERCOLANI</td>
+    <td class="excel21" width="119" style="width:89pt;">CANAM QUAD</td>
+    <td class="excel20" width="70" style="width:53pt;">4:25'11.47&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">1:29'12.68&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">56</td>
+    <td class="excel22">&nbsp;S.ORLANDO</td>
+    <td class="excel21" width="119" style="width:89pt;">BETA 390</td>
+    <td class="excel20" width="70" style="width:53pt;">4:26'49.00&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">1:30'50.21&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">57</td>
+    <td class="excel22">&nbsp;O.MUTELET</td>
+    <td class="excel21" width="119" style="width:89pt;">BETA 390</td>
+    <td class="excel20" width="70" style="width:53pt;">4:34'09.47&nbsp;</td>
+    <td class="excel20" width="72" style="width:54pt;">1:38'10.68&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">RIT</td>
+    <td class="excel22">&nbsp;V.CAMPIONE</td>
+    <td class="excel21" width="119" style="width:89pt;">KTM 250</td>
+    <td colspan="2" class="excel20" width="142" style="width:107pt;">SP1&nbsp;</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel23" width="34" style="height:15.0pt;width:26pt;">RIT</td>
+    <td class="excel22">&nbsp;F.CATANESE</td>
+    <td class="excel21" width="119" style="width:89pt;">HONDA 1000</td>
+    <td colspan="2" class="excel20" width="142" style="width:107pt;">SP1</td>
+  </tr>
+</table>
+</body>
+<head>
+<style type="text/css">
+<!--
+.result {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	background:#EAEAEA;
+	border:#000000;
+	border:double;
+}
+.Estilo2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FF0000;
+	font-style:italic;
+	font-weight:bold;
+}
+.Estilo4{
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.numerostabla {
+	font-weight:bold;
+	color:#FF0000;
+}
+.Estilo3 {
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:italic;
+	font-weight:bold;
+}
+.Estilo1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 18px;
+}
+.bg-a {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFFF00;
+	font-size:11px;
+	background:#000000;
+}
+
+.Estilo100 {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.Estilo200 {color: #FF0000}
+body {
+	background-color: #FFFFFF;
+-->
+</style>
+</head>
+</html>

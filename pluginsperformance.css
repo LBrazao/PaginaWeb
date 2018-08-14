@@ -1,0 +1,288 @@
+.maseventos {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#FFFFFF;
+	padding:0px 5px;
+}
+.tablacalendario1 {	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#333333;
+}
+.pedido{
+font-family:Arial, Helvetica, sans-serif;
+font-size:15px;
+color:#FFFFFF;
+font-weight:bold;
+padding:relative;
+margin-top:-52px;
+margin-left:40px;
+}
+@font-face { 
+font-family: "Arial Narrow"; 
+src: url("ARIALN.ttf"); 
+}
+.botoncalendario{
+	position:absolute;
+	margin-top:-95px;
+	margin-left:15px;
+	font-family:"Arial Narrow";
+	font-size:22px;
+	color:#999999;
+	z-index:30;
+}
+.vinculocalendario{
+	position:absolute;
+	margin-top:-33px;
+	margin-left:90px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+	font-weight:bold;
+	z-index:20;
+}
+.tecnicacomentada{
+	position:absolute;
+	margin-top:-220px;
+	margin-left:25px;
+	font-family:"Arial Narrow";
+	font-size:28px;
+	color:#FF0000;
+}
+.proximamente{
+	text-align:right;
+	position:absolute;
+	margin-top:-70px;
+	margin-left:100px;
+	font-family:"Arial Narrow";
+	font-size:25px;
+	color:#999999;
+}
+.imagenvideo{
+	border:#999999 solid 1px;
+}
+.imagenvideo_btn{
+	padding:3px 5px;
+	max-width:184px;
+	height:18px;
+	background-image:url(menuenvivo.jpg);
+	display:block;
+	color:#333333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border-bottom:solid #999999 1px;
+	border-left:solid #999999 1px;
+	border-right:solid #999999 1px;
+}
+.imagenfoto_btn{
+	padding:3px 5px;
+	max-width:233px;
+	height:18px;
+	background-image:url(menuenvivo.jpg);
+	display:block;
+	color:#333333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border-bottom:solid #999999 1px;
+	border-left:solid #999999 1px;
+	border-right:solid #999999 1px;
+}.imagenfoto_btn:hover{
+	color:#FF0000;
+}
+.imagenvideo_btn:hover{
+	background-image:url(menuenvivoactivo.jpg);
+	color:#FF0000;
+}
+.celdaclase{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#CCCCCC;
+	cursor:pointer;
+	text-align:center;
+}
+.celdadias{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#CCCCCC;
+	text-align:center;
+}
+.box {  
+    height: 340px;
+	overflow:hidden;
+    -webkit-transition: height 1s ease;  
+    -moz-transition: height 1s ease;  
+    -o-transition: height 1s ease;  
+    transition: height 1s ease;  
+}  
+  
+.box-change {  
+    height: 0px;
+	overflow:hidden;
+	-webkit-transition: height 1s ease;  
+    -moz-transition: height 1s ease;  
+    -o-transition: height 1s ease;  
+    transition: height 1s ease;
+}  
+.box1 {  
+    height: 0px;
+	overflow:hidden;
+    -webkit-transition: height 1s ease;  
+    -moz-transition: height 1s ease;  
+    -o-transition: height 1s ease;  
+    transition: height 1s ease;  
+}  
+  
+.box1-change {  
+    height: 241px;
+	overflow:hidden;
+	-webkit-transition: height 1s ease;  
+    -moz-transition: height 1s ease;  
+    -o-transition: height 1s ease;  
+    transition: height 1s ease;
+}
+.galeriacero {  
+    opacity: 0;
+	height: 0px;  
+}  
+  
+.galeriauno {  
+    opacity: 1;
+	padding:10px;
+	font-family:Oswald;
+	font-size:23px;
+	-webkit-transition: opacity 1s ease;  
+    -moz-transition: opacity 1s ease;  
+    -o-transition: opacity 1s ease;  
+    transition: opacity 1s ease; 
+}
+.tv1 {  
+    height: 0px;
+	overflow:hidden;
+    -webkit-transition: height 1s ease;  
+    -moz-transition: height 1s ease;  
+    -o-transition: height 1s ease;  
+    transition: height 1s ease;  
+}
+.tv1-sinaltura {  
+	overflow:hidden;
+    -webkit-transition: height 1s ease;  
+    -moz-transition: height 1s ease;  
+    -o-transition: height 1s ease;  
+    transition: height 1s ease;  
+}    
+.tv1-change {  
+    height: 463px;
+	overflow:hidden;
+    -webkit-transition: height 1s ease;  
+    -moz-transition: height 1s ease;  
+    -o-transition: height 1s ease;  
+    transition: height 1s ease;  
+}  
+.tv2 {  
+    height: 463px;
+	overflow:hidden;
+    -webkit-transition: height 1s ease;  
+    -moz-transition: height 1s ease;  
+    -o-transition: height 1s ease;  
+    transition: height 1s ease;  
+}  
+.tv2-change {  
+    height: 0px;
+	overflow:hidden;
+    -webkit-transition: height 1s ease;  
+    -moz-transition: height 1s ease;  
+    -o-transition: height 1s ease;  
+    transition: height 1s ease;  
+}
+.tc-tv1 {  
+    height: 0px;
+	overflow:hidden;
+    -webkit-transition: height 1s ease;  
+    -moz-transition: height 1s ease;  
+    -o-transition: height 1s ease;  
+    transition: height 1s ease;  
+}
+.tc-tv1-change {  
+    height: 463px;
+	overflow:hidden;
+    -webkit-transition: height 1s ease;  
+    -moz-transition: height 1s ease;  
+    -o-transition: height 1s ease;  
+    transition: height 1s ease;  
+}  
+.tc-tv2 {  
+    height: 463px;
+	overflow:hidden;
+    -webkit-transition: height 1s ease;  
+    -moz-transition: height 1s ease;  
+    -o-transition: height 1s ease;  
+    transition: height 1s ease;  
+}  
+.tc-tv2-change {  
+    height: 0px;
+	overflow:hidden;
+    -webkit-transition: height 1s ease;  
+    -moz-transition: height 1s ease;  
+    -o-transition: height 1s ease;  
+    transition: height 1s ease;  
+}
+.videos {  
+    height: 138px;
+	overflow:hidden;
+    -webkit-transition: height 1s ease;  
+    -moz-transition: height 1s ease;  
+    -o-transition: height 1s ease;  
+    transition: height 1s ease;  
+}  
+.videos_desplegado {  
+    height: auto;
+	overflow:hidden;
+    -webkit-transition: height 1s ease;  
+    -moz-transition: height 1s ease;  
+    -o-transition: height 1s ease;  
+    transition: height 1s ease;  
+}  
+.fotos {  
+    height: 168px;
+	overflow:hidden;
+    -webkit-transition: height 1s ease;  
+    -moz-transition: height 1s ease;  
+    -o-transition: height 1s ease;  
+    transition: height 1s ease;  
+}  
+.fotos_desplegado {  
+    height: auto;
+	overflow:hidden;
+    -webkit-transition: height 1s ease;  
+    -moz-transition: height 1s ease;  
+    -o-transition: height 1s ease;  
+    transition: height 1s ease;  
+}  
+.desplegado {  
+    height: 21px;
+	opacity: 1;
+}  
+.contraido {  
+    height: 0px;
+	opacity: 0;
+	overflow:hidden;
+}  
+.wrc {  
+    height: 343px;
+	overflow:hidden;
+    -webkit-transition: height 1s ease;  
+    -moz-transition: height 1s ease;  
+    -o-transition: height 1s ease;  
+    transition: height 1s ease;  
+}  
+  
+.wrc-change {  
+    height: 0px;
+	overflow:hidden;
+	-webkit-transition: height 1s ease;  
+    -moz-transition: height 1s ease;  
+    -o-transition: height 1s ease;  
+    transition: height 1s ease;
+}  

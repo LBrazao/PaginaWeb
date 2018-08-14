@@ -1,0 +1,153 @@
+.nav {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	margin-top:-15px;
+	margin-left:-30px;
+	}
+.nav1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	margin-top:-15px;
+	margin-left:-30px;
+	}
+
+.header {
+	width:500px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding:0px;
+    margin:0px;}
+	
+ul, ol, li {
+list-style:none;
+}
+
+.last_child {
+border-radius: 0px 0px 12px 12px;
+}
+
+.nav li ul li a {
+list-style-type:none;
+background-color:#000000;
+opacity:0.9;
+color:#FFFFFF;
+text-decoration:none;
+padding:12px 10px;
+display:block;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+}
+.nav1 li ul li a {
+list-style-type:none;
+background-color:#000000;
+opacity:0.9;
+color:#FFFFFF;
+text-decoration:none;
+padding:12px 10px;
+display:block;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+}
+
+.nav > li {
+float:left;}
+
+.nav1 > li {
+float:left;}
+
+.nav li ul li a:hover {
+opacity:1;
+color:#FF0000;
+-webkit-transition: opacity 0.3s ease, color 0.3s ease;  
+    -moz-transition: opacity 0.3s ease, color 0.3s ease;  
+    -o-transition: opacity 0.3s ease, color 0.3s ease;  
+    transition: opacity 0.3s ease, color 0.3s ease; 
+	
+}
+.nav1 li ul li a:hover {
+opacity:1;
+color:#FF0000;
+-webkit-transition: opacity 0.3s ease, color 0.3s ease;  
+    -moz-transition: opacity 0.3s ease, color 0.3s ease;  
+    -o-transition: opacity 0.3s ease, color 0.3s ease;  
+    transition: opacity 0.3s ease, color 0.3s ease;
+}
+.titulodepie{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+}
+.items_mapa{
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+font-weight:bold;
+color:#FF0000;
+}
+.subitems_mapa{
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#FFFFFF;
+}
+.subitems_mapa:hover{
+color:#999999;
+}
+.politicas{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#333333;
+font-weight:bold;
+}
+.nav li ul {
+	display:none;
+	position:absolute;
+	max-width:230px;
+	padding:9px 0px;
+	z-index: 29;
+}
+.nav1 li ul {
+	display:none;
+	position:absolute;
+	max-width:230px;
+	padding:9px 0px;
+	z-index: 30;
+}
+
+.nav li:hover > ul {
+display:block;
+-webkit-transition: display 0.3s ease;  
+    -moz-transition: display 0.3s ease;  
+    -o-transition: display 0.3s ease;  
+    transition: display 0.3s ease;
+}
+.nav1 li:hover > ul {
+display:block;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+html[data-useragent*='MSIE 10.0'] .nav {
+margin-top:2px;
+}
+html[data-useragent*='MSIE 10.0'] .nav1 {
+margin-top:2px;
+}
+.nosotros_argentinos{
+font-size:17px;
+color:#CCCCCC;
+font-weight:bold;
+}
+.nosotros_argentinos:hover{
+text-decoration:underline
+}

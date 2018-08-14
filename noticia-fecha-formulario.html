@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+<head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+
+
+
+<title>Documento sin t&iacute;tulo</title>
+
+
+
+</head>
+
+
+
+
+
+
+
+<body>
+
+
+
+
+
+<script type="text/javascript" language="javascript" src="codigo-javascript.js"></script>
+
+<script type="text/javascript" language="javascript" src="codigo-javascript1.js"></script>
+
+<FORM name="m_formulario" ACTION="send-noticias-fecha.php5" accept-charset="UTF-8" METHOD="POST" enctype="multipart/form-data">
+
+
+
+Categoría:<BR>
+
+
+
+<INPUT TYPE="text" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" NAME="categoria" SIZE="20">
+<BR> 
+
+
+
+Carrera Nº: <BR>
+
+
+
+<INPUT TYPE="text" NAME="carrera" SIZE="20" MAXLENGTH="2">
+<br>
+
+
+Autor:<BR>
+
+
+
+
+<INPUT TYPE="text" NAME="autor" SIZE="40"><BR>                                                      
+
+<BR>
+
+Título:<BR>                     
+
+
+
+<INPUT TYPE="text" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" NAME="titulo" SIZE="80"><BR>                                                      
+
+
+
+<BR>
+
+    <input type="hidden" name="MAX_FILE_SIZE" value="300000000" />
+
+    Foto: <input name="userfile" type="file" />
+
+<BR>
+
+<div style="position:absolute; right:200px; margin-top:-30px;">Código del video:<BR>
+
+  <textarea name="video" onkeypress="keypress()" cols="80" rows="1" style= "width:30 ; height:16"></textarea>
+
+</div>
+
+<BR>
+
+
+
+Noticia:<BR>
+
+<input name="button" type="button" onclick="codigo1('<i><b>','</b></i>','')" value="Cita textual" />
+
+<input name="button2" type="button" onclick="codigo1('<b>','</b>','')" value="Destacar" />
+
+<input name="button3" type="button" onclick="codigo('<a style=\'color:#FF0000;\' HREF=\'http://','\'><b><u>','</u></b></a>')" value="Vínculo" />
+
+
+
+<BR>
+
+<textarea name="noticia" onkeypress="keypress()" cols="150" rows="10" style= "width:70 ; height:50"></textarea>
+
+<BR>
+
+
+
+
+
+<INPUT TYPE="submit" VALUE="ENVIAR">
+
+
+
+
+
+
+
+</FORM>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
+
+
+

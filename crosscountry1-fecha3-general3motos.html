@@ -1,0 +1,864 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Documento sin t&iacute;tulo</title>
+
+
+<meta http-equiv="refresh" content="60" />
+
+<style type="text/css">
+<!--
+table tr:nth-child(odd){
+	background-color:#E5E5E5;
+}
+table tr:nth-child(even){
+	background-color:#F8F8F8;
+}
+.scrolltable{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#333333;
+}
+thead{
+color:#FF0000;
+font-weight:bold;
+background-color:#E5E5E5;
+}
+.scrolltable table{
+border-collapse:collapse;
+width:100%;
+}
+.scrolltable table tr:nth-child(odd){
+	background-color:#E5E5E5;
+}
+.scrolltable table tr:nth-child(even){
+	background-color:#F8F8F8;
+}
+.driver{
+font-weight:bold;
+}
+.link{
+color:#FFFFFF;
+font-weight:bold;
+text-decoration:none;
+}
+.sintiempos{
+background-color:#FFFFFF;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;}
+-->
+
+</style><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+<!--
+.excel1 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+text-align:general;
+vertical-align:bottom;
+border:none;
+white-space:nowrap;
+}
+.excel6 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:red;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:bottom;
+border:none;
+white-space:normal;
+}
+.excel2 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:windowtext;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:top;
+border:none;
+white-space:normal;
+}
+.excel4 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:windowtext;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:general;
+vertical-align:top;
+border:none;
+white-space:normal;
+}
+-->
+</style>
+<style type="text/css">
+<!--
+.excel3 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+text-align:general;
+vertical-align:bottom;
+border:none;
+white-space:nowrap;
+}
+.excel10 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:red;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:bottom;
+border:none;
+white-space:normal;
+}
+.excel5 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:windowtext;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:top;
+border:none;
+white-space:normal;
+}
+.excel8 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:windowtext;
+font-size:10.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:general;
+vertical-align:top;
+border:none;
+white-space:normal;
+}
+-->
+</style>
+<style type="text/css">
+<!--
+.excel7 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+text-align:general;
+vertical-align:bottom;
+border:none;
+white-space:nowrap;
+}
+.excel9 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:red;
+font-size:9.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel11 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:red;
+font-size:9.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:left;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel13 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel12 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:left;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel16 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel17 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel18 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+-->
+</style>
+<style type="text/css">
+<!--
+.excel14 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+text-align:general;
+vertical-align:bottom;
+border:none;
+white-space:nowrap;
+}
+.excel21 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:red;
+font-size:9.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel22 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:red;
+font-size:9.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:left;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel15 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel19 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:left;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel23 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel24 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel25 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+-->
+</style>
+<style type="text/css">
+<!--
+.excel20 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+text-align:general;
+vertical-align:bottom;
+border:none;
+white-space:nowrap;
+}
+.excel29 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:red;
+font-size:9.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel30 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:red;
+font-size:9.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:left;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel26 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel27 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:left;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel31 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel32 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel34 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+.excel33 {
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+text-align:center;
+vertical-align:middle;
+border:none;
+white-space:normal;
+}
+-->
+</style>
+</head>
+
+<body>
+
+
+
+
+<table style="font-family:Arial, Helvetica, sans-serif" width="433" height="32" border="0" cellpadding="0">
+  <tr>
+    <td width="182">ETAPA 3 (MOTOS): </td>
+    <td width="124" background="boton general.jpg"><div align="center"><a class="link" href="crosscountry1-fecha3-etapa3motos.html">Especial</a> </div></td>
+    <td width="119" background="boton general activo.jpg"><div align="center"><em>General</em></div></td>
+  </tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="excel20">
+  <col width="32" style="width:24pt;" />
+  <col width="191" style="width:143pt;" />
+  <col width="131" style="width:98pt;" />
+  <col width="38" style="width:29pt;" />
+  <col width="79" style="width:59pt;" />
+  <col width="65" style="width:49pt;" />
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel29" width="32" style="height:15.0pt;width:24pt;">Pos.</td>
+    <td class="excel30" width="191" style="width:143pt;">Piloto</td>
+    <td class="excel29" width="131" style="width:98pt;">Marca</td>
+    <td class="excel29" width="38" style="width:29pt;">Km/h</td>
+    <td class="excel29" width="79" style="width:59pt;">Diferencia</td>
+    <td width="65" style="width:49pt;"></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">1</td>
+    <td class="excel27" width="191" style="width:143pt;">Marc Coma Camps (ESP )</td>
+    <td class="excel26" width="131" style="width:98pt;">KTM 450 Rally Replica</td>
+    <td class="excel26" width="38" style="width:29pt;">91.13</td>
+    <td class="excel31" width="79" style="width:59pt;">10:54:02</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">2</td>
+    <td class="excel27" width="191" style="width:143pt;">Jordi Viladoms (ESP )</td>
+    <td class="excel26" width="131" style="width:98pt;">KTM 450 Rally Replica</td>
+    <td class="excel26" width="38" style="width:29pt;">89.73</td>
+    <td class="excel32" width="79" style="width:59pt;">10:12</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">3</td>
+    <td class="excel27" width="191" style="width:143pt;">Pablo Quintanilla (CHI )</td>
+    <td class="excel26" width="131" style="width:98pt;">KTM 450 Rally Replica</td>
+    <td class="excel26" width="38" style="width:29pt;">89.73</td>
+    <td class="excel32" width="79" style="width:59pt;">10:13</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">4</td>
+    <td class="excel27" width="191" style="width:143pt;">Paulo Gonçalves (PRT )</td>
+    <td class="excel26" width="131" style="width:98pt;">Honda CRF 450 Rally</td>
+    <td class="excel26" width="38" style="width:29pt;">89.68</td>
+    <td class="excel32" width="79" style="width:59pt;">10:33</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">5</td>
+    <td class="excel27" width="191" style="width:143pt;">Matthias Walkner (AUT )</td>
+    <td class="excel26" width="131" style="width:98pt;">KTM 450 Rally Replica</td>
+    <td class="excel26" width="38" style="width:29pt;">89.60</td>
+    <td class="excel32" width="79" style="width:59pt;">11:08</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">6</td>
+    <td class="excel27" width="191" style="width:143pt;">Joan Barreda Bort (ESP )</td>
+    <td class="excel26" width="131" style="width:98pt;">Honda CRF 450 Rally</td>
+    <td class="excel26" width="38" style="width:29pt;">89.49</td>
+    <td class="excel32" width="79" style="width:59pt;">11:57</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">7</td>
+    <td class="excel27" width="191" style="width:143pt;">Sam Sunderland (GBR )</td>
+    <td class="excel26" width="131" style="width:98pt;">KTM 450 Rally Replica</td>
+    <td class="excel26" width="38" style="width:29pt;">89.36</td>
+    <td class="excel32" width="79" style="width:59pt;">12:58</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">8</td>
+    <td class="excel27" width="191" style="width:143pt;">Mohamed Al Balooshi (ARE )</td>
+    <td class="excel26" width="131" style="width:98pt;">KTM 450 Rally Replica</td>
+    <td class="excel26" width="38" style="width:29pt;">81.14</td>
+    <td class="excel31" width="79" style="width:59pt;">1:20:30</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">9</td>
+    <td class="excel27" width="191" style="width:143pt;">Armand Monleón (ESP )</td>
+    <td class="excel26" width="131" style="width:98pt;">KTM 450 Rally Replica</td>
+    <td class="excel26" width="38" style="width:29pt;">78.36</td>
+    <td class="excel31" width="79" style="width:59pt;">1:46:36</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">10</td>
+    <td class="excel27" width="191" style="width:143pt;">Rafal Sonik (POL )</td>
+    <td class="excel26" width="131" style="width:98pt;">Honda TRX 700</td>
+    <td class="excel26" width="38" style="width:29pt;">76.99</td>
+    <td class="excel31" width="79" style="width:59pt;">2:00:04</td>
+    <td class="excel34" width="65" style="width:49pt;">Cuatriciclo</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">11</td>
+    <td class="excel27" width="191" style="width:143pt;">Mohammed Abu-Issa (QAT )</td>
+    <td class="excel26" width="131" style="width:98pt;">Honda TRX 680</td>
+    <td class="excel26" width="38" style="width:29pt;">76.79</td>
+    <td class="excel31" width="79" style="width:59pt;">2:02:05</td>
+    <td class="excel34" width="65" style="width:49pt;">Cuatriciclo</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">12</td>
+    <td class="excel27" width="191" style="width:143pt;">Jakub Piatek (POL )</td>
+    <td class="excel26" width="131" style="width:98pt;">KTM 450 Rally Replica</td>
+    <td class="excel26" width="38" style="width:29pt;">74.73</td>
+    <td class="excel31" width="79" style="width:59pt;">2:23:33</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">13</td>
+    <td class="excel27" width="191" style="width:143pt;">David Megre (PRT )</td>
+    <td class="excel26" width="131" style="width:98pt;">KTM EXC - F</td>
+    <td class="excel26" width="38" style="width:29pt;">74.12</td>
+    <td class="excel31" width="79" style="width:59pt;">2:30:03</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">14</td>
+    <td class="excel27" width="191" style="width:143pt;">Mario Patrao (PRT )</td>
+    <td class="excel26" width="131" style="width:98pt;">KTM EXC - F</td>
+    <td class="excel26" width="38" style="width:29pt;">73.66</td>
+    <td class="excel31" width="79" style="width:59pt;">2:35:07</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">15</td>
+    <td class="excel27" width="191" style="width:143pt;">Victor Oliveira (PRT )</td>
+    <td class="excel26" width="131" style="width:98pt;">Husqvarna 449 Rally</td>
+    <td class="excel26" width="38" style="width:29pt;">68.45</td>
+    <td class="excel31" width="79" style="width:59pt;">3:36:44</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">16</td>
+    <td class="excel27" width="191" style="width:143pt;">Anastasiya Nifontova (RUS )</td>
+    <td class="excel26" width="131" style="width:98pt;">Husqvarna 450FE</td>
+    <td class="excel26" width="38" style="width:29pt;">55.23</td>
+    <td class="excel31" width="79" style="width:59pt;">7:05:06</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">17</td>
+    <td class="excel27" width="191" style="width:143pt;">Kamil Wisniewski (POL )</td>
+    <td class="excel26" width="131" style="width:98pt;">Yamaha Raptor</td>
+    <td class="excel26" width="38" style="width:29pt;">50.70</td>
+    <td class="excel31" width="79" style="width:59pt;">8:41:34</td>
+    <td class="excel34" width="65" style="width:49pt;">Cuatriciclo</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">18</td>
+    <td class="excel27" width="191" style="width:143pt;">Ibraheem Alrubaian (KUW )</td>
+    <td class="excel26" width="131" style="width:98pt;">KTM 500cc</td>
+    <td class="excel26" width="38" style="width:29pt;">24.80</td>
+    <td class="excel33" width="79" style="width:59pt;">29:08:52</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">19</td>
+    <td class="excel27" width="191" style="width:143pt;">Pedro Velosa (PRT )</td>
+    <td class="excel26" width="131" style="width:98pt;">Husqvarna TE 449</td>
+    <td class="excel26" width="38" style="width:29pt;">14.13</td>
+    <td class="excel33" width="79" style="width:59pt;">59:25:15</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">20</td>
+    <td class="excel27" width="191" style="width:143pt;">Miguel Caetano (PRT )</td>
+    <td class="excel26" width="131" style="width:98pt;">Husqvarna 449 Rally</td>
+    <td class="excel26" width="38" style="width:29pt;">13.99</td>
+    <td class="excel33" width="79" style="width:59pt;">60:06:42</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">21</td>
+    <td class="excel27" width="191" style="width:143pt;">Joao Rolo Simões (PRT )</td>
+    <td class="excel26" width="131" style="width:98pt;">KTM 660 RALLY</td>
+    <td class="excel26" width="38" style="width:29pt;">13.40</td>
+    <td class="excel33" width="79" style="width:59pt;">63:15:22</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">22</td>
+    <td class="excel27" width="191" style="width:143pt;">Oscar Romero Montoya (ESP )</td>
+    <td class="excel26" width="131" style="width:98pt;">Alfer PKL 450</td>
+    <td class="excel26" width="38" style="width:29pt;">12.80</td>
+    <td class="excel33" width="79" style="width:59pt;">66:40:27</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">23</td>
+    <td class="excel27" width="191" style="width:143pt;">Joao Pedro Cunha Rato (PRT )</td>
+    <td class="excel26" width="131" style="width:98pt;">Husqvarna TE 449</td>
+    <td class="excel26" width="38" style="width:29pt;">11.85</td>
+    <td class="excel33" width="79" style="width:59pt;">72:55:35</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">24</td>
+    <td class="excel27" width="191" style="width:143pt;">Jeremias Israel Esquerre (CHI )</td>
+    <td class="excel26" width="131" style="width:98pt;">Honda CRF 450 Rally</td>
+    <td class="excel26" width="38" style="width:29pt;">11.75</td>
+    <td class="excel33" width="79" style="width:59pt;">73:38:36</td>
+    <td></td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">25</td>
+    <td class="excel27" width="191" style="width:143pt;">Nelson Augusto Sanabria (PAR )</td>
+    <td class="excel26" width="131" style="width:98pt;">Yamaha Raptor 700cc</td>
+    <td class="excel26" width="38" style="width:29pt;">8.72</td>
+    <td class="excel33" width="79" style="width:59pt;">103:04:10</td>
+    <td class="excel34" width="65" style="width:49pt;">Cuatriciclo</td>
+  </tr>
+  <tr height="20" style="height:15.0pt;">
+    <td height="20" class="excel26" width="32" style="height:15.0pt;width:24pt;">26</td>
+    <td class="excel27" width="191" style="width:143pt;">Tiago Martins (PRT )</td>
+    <td class="excel26" width="131" style="width:98pt;">Husqvarna TE 449</td>
+    <td class="excel26" width="38" style="width:29pt;">8.24</td>
+    <td class="excel33" width="79" style="width:59pt;">109:38:22</td>
+    <td></td>
+  </tr>
+</table>
+</body>
+<head>
+<style type="text/css">
+<!--
+.result {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	background:#EAEAEA;
+	border:#000000;
+	border:double;
+}
+.Estilo2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FF0000;
+	font-style:italic;
+	font-weight:bold;
+}
+.Estilo4{
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.numerostabla {
+	font-weight:bold;
+	color:#FF0000;
+}
+.Estilo3 {
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:italic;
+	font-weight:bold;
+}
+.Estilo1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 18px;
+}
+.bg-a {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFFF00;
+	font-size:11px;
+	background:#000000;
+}
+
+.Estilo100 {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.Estilo200 {color: #FF0000}
+body {
+	background-color: #FFFFFF;
+-->
+</style>
+</head>
+</html>

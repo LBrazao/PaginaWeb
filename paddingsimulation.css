@@ -1,0 +1,42 @@
+.imagen2{
+margin-top:-212px;
+}
+.imagen3{
+margin-top:-212px;
+}
+.imagen4{
+margin-top:-212px;
+}
+.imagen5{
+margin-top:-212px;
+}
+html[data-useragent*='MSIE 10.0'] .imagen2 {
+margin-top:-207px;
+}
+html[data-useragent*='MSIE 10.0'] .textomasvideos {
+margin-left:-58px;
+}
+html[data-useragent*='MSIE 10.0'] .imagen3 {
+margin-top:-207px;
+}
+html[data-useragent*='MSIE 10.0'] .imagen4 {
+margin-top:-207px;
+}
+html[data-useragent*='MSIE 10.0'] .imagen5 {
+margin-top:-207px;
+}
+html[data-useragent*='MSIE 10.0'] .popup{
+margin-left:-32px;
+margin-top:8px;
+list-style:none;
+}
+
+.carreraenvivo {
+  position:relative;
+  margin:0 auto;
+}
+.carreraenvivo img {
+  position:absolute;
+  margin-left:0;
+  margin-top:0px;
+  border-color:#999999;}

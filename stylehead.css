@@ -1,0 +1,496 @@
+.rev_slider_wrapper{
+
+	position:relative;
+	z-index:1
+
+}
+
+
+
+.rev_slider_wrapper >ul	{
+
+	visibility:hidden;
+
+}
+
+
+
+
+
+
+
+
+.rev_slider img{
+
+	max-width:none ;
+
+	max-width:none ;
+
+	-moz-transition: none 0 ;
+
+	-webkit-transition: none 0 ;
+
+	-o-transition: none 0 ;
+
+	transition: none 0 ;
+
+	margin:0px ;
+
+	padding:0px ;
+
+	border-width:0px ;
+
+	border:none;
+
+	visibility:visible ;
+
+}
+
+
+
+
+
+
+
+.rev_slider ul{
+
+	margin:0px ;
+
+	padding:0px ;
+
+	list-style: none ;
+
+	list-style-type: none ;
+
+	background-position:0px 0px ;
+
+}
+
+
+
+.rev_slider ul li,
+
+.rev_slider >ul >li,
+
+.rev_slider >ul >li:before{
+
+
+
+	list-style:none ;
+
+	position:absolute;
+
+	visibility:hidden;
+
+	margin:0px ;
+
+	padding:0px ;
+
+	overflow-x: visible;
+
+	overflow-y: visible;
+
+	list-style-type: none ;
+
+	background-image:none ;
+
+	background-position:0px 0px ;
+
+	text-indent: 0em ;
+
+}
+
+
+
+.rev_slider,
+
+.rev_slider .caption, {
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";	-moz-opacity: 0;	-khtml-opacity: 0;	opacity: 0; 	position:absolute; visibility: hidden;
+
+}
+
+
+
+/* ADDED FOR SLIDELINK MANAGEMENT */
+
+
+
+
+
+
+
+
+
+.tp_inner_padding	{	box-sizing:border-box;
+
+						-webkit-box-sizing:border-box;
+
+						-moz-box-sizing:border-box;
+
+						max-height:none ;	}
+
+
+
+
+
+.tp-hide-revslider,.tp-hidden-caption	{	visibility:hidden ; display:none ;}
+
+
+
+/******************************
+
+	-	WRAPPER STYLES END	-
+
+******************************/
+
+
+
+/******************************
+
+	-	IE8 HACKS	-
+
+*******************************/
+
+.noFilterClass {
+
+	filter:none ;
+
+}
+
+/******************************
+
+	-	IE8 HACKS ENDS	-
+
+*******************************/
+
+
+
+/********************************
+
+	-	FULLSCREEN VIDEO	-
+
+*********************************/
+
+
+.tp-caption{
+position:absolute;
+margin-left:690px;
+font-family:"Arial Narrow";
+font-size:40px;
+color:#FFFFFF;
+margin-top:70px;
+z-index:1;
+display: table-cell;
+}
+
+/********************************
+
+	-	FULLSCREEN VIDEO ENDS	-
+
+*********************************/
+
+
+
+.fullwidthbanner-container{
+
+	width:100% ;
+
+	position:relative;
+
+	padding:0;
+
+	overflow:hidden;
+
+}
+
+
+
+.fullwidthbanner-container .fullwidthabanner{
+
+	width:100% ;
+
+	position:relative;
+
+}
+
+
+
+
+
+/****************************************************************
+
+
+
+	-	SET THE ANIMATION EVEN MORE SMOOTHER ON ANDROID   -
+
+
+
+******************************************************************/
+
+
+
+.tp-simpleresponsive .slotholder *,
+
+.tp-simpleresponsive img			{ -webkit-transform: translateZ(0);
+
+										  -webkit-backface-visibility: hidden;
+
+										  -webkit-perspective: 1000;
+
+									}
+
+
+
+
+
+/************************************************
+
+	  - SOME CAPTION MODIFICATION AT START  -
+
+*************************************************/
+
+.tp-simpleresponsive .caption,
+
+.tp-simpleresponsive .tp-caption {
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";		-moz-opacity: 0;	-khtml-opacity: 0;	opacity: 0; position:absolute;
+
+}
+
+
+
+
+
+/******************************
+
+	-	SHADOWS		-
+
+******************************/
+
+.tp-bannershadow  {
+
+		position:absolute;
+
+
+
+		margin-left:auto;
+
+		margin-right:auto;
+
+		-moz-user-select: none;
+
+        -khtml-user-select: none;
+
+        -webkit-user-select: none;
+
+        -o-user-select: none;
+
+	}
+
+
+
+
+
+
+
+
+/******************************
+
+	-	BUTTONS	-
+
+*******************************/
+
+
+
+.tp-button{
+
+			padding:6px 13px 5px;
+
+			border-radius: 3px;
+
+			-moz-border-radius: 3px;
+
+			-webkit-border-radius: 3px;
+
+			height:30px;
+
+			cursor:pointer;
+
+			color:#fff ; text-shadow:0px 1px 1px rgba(0, 0, 0, 0.6) ; font-size:15px; line-height:45px ;
+
+			background:url(http://www.trv6.net/site/wp-content/plugins/revslider/rs-plugin/assets/images/gradient/g30.png) repeat-x top; font-family: arial, sans-serif; font-weight: bold; letter-spacing: -1px;
+
+			text-decoration:none;
+
+		}
+
+
+
+.tp-button.big			{	color:#fff; text-shadow:0px 1px 1px rgba(0, 0, 0, 0.6); font-weight:bold; padding:9px 20px; font-size:19px;  line-height:57px ; background:url(http://www.trv6.net/site/wp-content/plugins/revslider/rs-plugin/assets/images/gradient/g40.png) repeat-x top;}
+
+
+
+
+
+.purchase:hover,
+
+.tp-button:hover,
+
+.tp-button.big:hover		{	background-position:bottom, 15px 11px;}
+
+
+
+
+
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+		.tp-button	{	padding:4px 8px 3px; line-height:25px ; font-size:11px ;font-weight:normal;	}
+
+		a.tp-button { -webkit-transition: none; -moz-transition: none; -o-transition: none; -ms-transition: none;	 }
+
+	}
+
+
+
+    @media only screen and (min-width: 0px) and (max-width: 479px) {
+
+		.tp-button	{	padding:2px 5px 2px; line-height:20px ; font-size:10px ;}
+
+		a.tp-button { -webkit-transition: none; -moz-transition: none; -o-transition: none; -ms-transition: none;	 }
+
+	}
+
+
+
+
+
+/*	BUTTON COLORS	*/
+
+
+
+.tp-button.green, .tp-button:hover.green,
+
+.purchase.green, .purchase:hover.green			{ background-color:#21a117; -webkit-box-shadow:  0px 3px 0px 0px #104d0b;        -moz-box-shadow:   0px 3px 0px 0px #104d0b;        box-shadow:   0px 3px 0px 0px #104d0b;  }
+
+
+
+
+
+.tp-button.blue, .tp-button:hover.blue,
+
+.purchase.blue, .purchase:hover.blue			{ background-color:#1d78cb; -webkit-box-shadow:  0px 3px 0px 0px #0f3e68;        -moz-box-shadow:   0px 3px 0px 0px #0f3e68;        box-shadow:   0px 3px 0px 0px #0f3e68;}
+
+
+
+
+
+.tp-button.red, .tp-button:hover.red,
+
+.purchase.red, .purchase:hover.red				{ background-color:#cb1d1d; -webkit-box-shadow:  0px 3px 0px 0px #7c1212;        -moz-box-shadow:   0px 3px 0px 0px #7c1212;        box-shadow:   0px 3px 0px 0px #7c1212;}
+
+
+
+.tp-button.orange, .tp-button:hover.orange,
+
+.purchase.orange, .purchase:hover.orange		{ background-color:#ff7700; -webkit-box-shadow:  0px 3px 0px 0px #a34c00;        -moz-box-shadow:   0px 3px 0px 0px #a34c00;        box-shadow:   0px 3px 0px 0px #a34c00;}
+
+
+
+.tp-button.darkgrey,.tp-button.grey,
+
+.tp-button:hover.darkgrey,.tp-button:hover.grey,
+
+.purchase.darkgrey, .purchase:hover.darkgrey	{ background-color:#555; -webkit-box-shadow:  0px 3px 0px 0px #222;        -moz-box-shadow:   0px 3px 0px 0px #222;        box-shadow:   0px 3px 0px 0px #222;}
+
+
+
+.tp-button.lightgrey, .tp-button:hover.lightgrey,
+
+.purchase.lightgrey, .purchase:hover.lightgrey	{ background-color:#888; -webkit-box-shadow:  0px 3px 0px 0px #555;        -moz-box-shadow:   0px 3px 0px 0px #555;        box-shadow:   0px 3px 0px 0px #555;}
+
+
+
+
+
+
+
+************************
+
+	-	NAVIGATION	-
+
+*************************/
+
+
+
+/** BULLETS **/
+
+
+
+.tpclear		{	clear:both;}
+
+
+
+
+
+.tp-bullets								{	z-index:1000; position:absolute;
+
+												-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+
+												-moz-opacity: 1;
+
+												-khtml-opacity: 1;
+
+												opacity: 1;
+
+												-webkit-transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; -ms-transition: opacity 0.2s ease-out;
+
+											}
+
+.tp-bullets.hidebullets					{
+
+												-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
+												-moz-opacity: 0;
+
+												-khtml-opacity: 0;
+
+												opacity: 0;
+
+											}
+
+
+
+
+
+.tp-bullets.simplebullets.navbar						{ 	border:1px solid #666; border-bottom:1px solid #444; background:url(http://www.trv6.net/site/wp-content/plugins/revslider/rs-plugin/assets/assets/boxed_bgtile.png); height:40px; padding:0px 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;}
+
+
+
+.tp-bullets.simplebullets.navbar-old					{ 	 background:url(http://www.trv6.net/site/wp-content/plugins/revslider/rs-plugin/assets/assets/navigdots_bgtile.png); height:35px; padding:0px 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;}
+
+
+
+
+
+.tp-bullets.simplebullets.round .bullet					{	cursor:pointer; position:relative;	background:url(http://www.trv6.net/site/wp-content/plugins/revslider/rs-plugin/assets/assets/bullet.png) no-Repeat top left;	width:20px;	height:20px;  margin-right:0px; float:left; margin-top:-10px; margin-left:3px;}
+
+.tp-bullets.simplebullets.round .bullet.last			{	margin-right:3px;}
+
+
+
+.tp-bullets.simplebullets.round-old .bullet				{	cursor:pointer; position:relative;	background:url(http://www.trv6.net/site/wp-content/plugins/revslider/rs-plugin/assets/assets/bullets.png) no-Repeat bottom left;	width:23px;	height:23px;  margin-right:0px; float:left; margin-top:-12px;}
+
+.tp-bullets.simplebullets.round-old .bullet.last		{	margin-right:0px;}
+
+
+
+
+
+/**	SQUARE BULLETS **/
+
+.tp-bullets.simplebullets.square .bullet				{	cursor:pointer; position:relative;	background:url(http://www.trv6.net/site/wp-content/plugins/revslider/rs-plugin/assets/assets/bullets2.png) no-Repeat bottom left;	width:19px;	height:19px;  margin-right:0px; float:left; margin-top:-10px;}
+
+.tp-bullets.simplebullets.square .bullet.last			{	margin-right:0px;}
+
+

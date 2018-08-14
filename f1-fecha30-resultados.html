@@ -1,0 +1,87 @@
+
+<script type="text/javascript">
+		
+		function abrir_tandas() {
+			document.getElementById("menu_tandas").className="tandas_desplegadas";
+			document.getElementById("desplazador_tandas").className="desaparecido";
+			document.getElementById("ocultador_tandas").className="";
+	}
+	function cerrar_tandas() {
+			document.getElementById("menu_tandas").className="tandas_contraidas";
+			document.getElementById("ocultador_tandas").className="desaparecido";
+			document.getElementById("desplazador_tandas").className="";
+	}
+</script>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr><td>
+	
+	<div id="menu_tandas" class="tandas_contraidas">
+	<table width="100%" border="0" cellpadding="4" cellspacing="0" style="padding-bottom:4px; border-bottom:1px dashed #666666">
+  <tr>
+    <td width="25%"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="tanda-completa" onclick="window.open('tc-fecha15-1entrenamiento.php','resultados')">
+      <tr>
+        <td>1&ordm; Entrenamiento</td>
+      </tr>
+    </table></td>
+    <td width="25%"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="tanda-completa" onclick="window.open('tc-fecha15-1clasificacion.php','resultados')">
+      <tr>
+        <td>1&ordm; Clasificaci&oacute;n</td>
+      </tr>
+    </table></td>
+    <td width="25%"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="tanda-completa" onclick="window.open('tc-fecha15-2entrenamiento.php','resultados')">
+      <tr>
+        <td>2&ordm; Entrenamiento</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td width="25%"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="tanda-completa" onclick="window.open('tc-fecha15-clasificaciongeneral.php','resultados')">
+      <tr>
+        <td>Clasificaci&oacute;n Gral. </td>
+      </tr>
+    </table></td>
+    <td width="25%"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="tanda-vivo" onclick="window.open('tc-fecha15-1serie.php','resultados')">
+      <tr>
+        <td>1&ordm; Serie</td>
+      </tr>
+    </table></td>
+    <td width="25%"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="tanda-inactiva" nclick="window.open('tc-fecha15-2serie.php','resultados')">
+      <tr>
+        <td>2&ordm; Serie </td>
+      </tr>
+    </table></td>
+  </tr><tr>
+    <td width="25%"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="tanda-inactiva" nclick="window.open('tc-fecha15-3serie.php','resultados')">
+      <tr>
+        <td>3&ordm; Serie </td>
+      </tr>
+    </table></td>
+    <td width="25%"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="tanda-inactiva" nclick="window.open('tc-fecha15-final.php','resultados')">
+      <tr>
+        <td>Final</td>
+      </tr>
+    </table></td>
+    <td width="25%"></td>
+  </tr></table>
+  <table width="100%" border="0" cellpadding="4" cellspacing="0" style="padding-top:4px"><tr>
+    <td width="25%"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="tanda-horarios" onclick="window.open('tc-fecha15-cronograma.html','resultados')">
+      <tr>
+        <td>Horarios</td>
+      </tr>
+    </table></td>
+    <td width="25%"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="tanda-horarios" onclick="window.open('tc-fecha15-inscriptos.html','resultados')">
+      <tr>
+        <td>Pilotos</td>
+      </tr>
+    </table></td>
+    <td width="25%"></td>
+  </tr>
+</table>
+</div>
+<div id="desplazador_tandas" onclick="abrir_tandas()">MOSTRAR TANDAS <img src="flechamenu.png" height="auto" border="0" /></div>
+<div id="ocultador_tandas" onclick="cerrar_tandas()" class="desaparecido">OCULTAR TANDAS <img src="flechamenu-arriba.png" height="auto" border="0" /></div>
+	</td></tr>
+	<tr><td>
+<iframe src="tc-fecha16-final.php" name="resultados" width="100%" height="1600" frameborder="0" id="resultados" allowfullscreen="allowfullscreen"></iframe>
+</td></tr></table>

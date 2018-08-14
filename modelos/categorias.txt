@@ -1,0 +1,7 @@
+turismo carretera,Turismo Carretera,tc-principal.html,tc-secundaria.html,tc-terciaria.html,tc-videos.html,tc-videos-insertados.html,tc-noticias-insertadas.html,tc-inicio-horizontal.html,tc-fecha
+tc pista,TC Pista,no grabar,no grabar,no grabar,no grabar,no grabar,no grabar,no grabar,no grabar
+super tc2000,Super TC2000,no grabar,no grabar,no grabar,no grabar,no grabar,no grabar,no grabar,no grabar
+tc2000,TC2000,no grabar,no grabar,no grabar,no grabar,no grabar,no grabar,no grabar,no grabar
+top race,Top Race,no grabar,no grabar,no grabar,no grabar,no grabar,no grabar,no grabar,no grabar
+top race series,Top Race Series,no grabar,no grabar,no grabar,no grabar,no grabar,no grabar,no grabar,no grabar
+turismo nacional,Turismo Nacional,no grabar,no grabar,no grabar,no grabar,no grabar,no grabar,no grabar,no grabar

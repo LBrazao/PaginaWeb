@@ -1,0 +1,11 @@
+/* CSS Document */
+
+.contraido {  
+    height: 0px;
+	overflow:hidden;
+}  
+
+.desplegado {  
+    height: 100%;
+	overflow:hidden;
+}  
